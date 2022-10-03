@@ -1,0 +1,24 @@
+body{
+    color: rgb(62, 185, 179);
+    background-color: brown;
+}
+#close{
+    color: rgb(236, 14, 14);
+    border: none;
+    position: relative;
+    float: right;
+    margin: 5px 15px 0 0;
+}
+.container{
+    display: inline-block;
+    background-color: rgb(65, 50, 194);
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+}
+.info{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
