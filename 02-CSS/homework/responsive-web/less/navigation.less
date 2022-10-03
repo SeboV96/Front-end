@@ -1,0 +1,24 @@
+// Código de Nav acá
+//Estilos anidados de LESS
+nav{
+    h2{
+        font-size: 3.2rem;
+    }
+    padding: 10px;
+;
+    .flex(column, center, center);
+
+    background-color: @nav-bg;
+    ul{
+        width: 40%;
+        padding-top: 15px;
+
+        .flex(row, space-around, center);
+        a{
+            font-size: 15px;
+            color: @nav-font;
+            text-decoration: none;
+            font-family: @nav-font;
+        }
+    }
+}
